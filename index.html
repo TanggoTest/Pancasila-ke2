@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sila 2 – Kemanusiaan di Era Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-brand">
+    <span class="sila-badge">Sila II</span>
+    <span class="nav-title">Kemanusiaan Digital</span>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#home" class="nav-link active" data-page="home">Beranda</a></li>
+    <li><a href="#fenomena" class="nav-link" data-page="fenomena">Fenomena</a></li>
+    <li><a href="#moral" class="nav-link" data-page="moral">Nilai Moral</a></li>
+    <li><a href="#interaktif" class="nav-link" data-page="interaktif">Interaktif</a></li>
+    <li><a href="#kesimpulan" class="nav-link" data-page="kesimpulan">Kesimpulan</a></li>
+  </ul>
+</nav>
+
+<!-- ===== PAGE: HOME ===== -->
+<section id="home" class="page active">
+  <div class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Pendidikan Pancasila — Teknik Komputer</div>
+      <h1 class="hero-title">
+        <span class="accent-word">Hilangnya</span><br/>Rasa Kemanusiaan<br/>di Dunia Digital
+      </h1>
+      <p class="hero-sub">
+        Sila ke-2 Pancasila: <em>"Kemanusiaan yang Adil dan Beradab"</em><br/>
+        bukan slogan — ini cermin perilaku kita di internet setiap hari.
+      </p>
+      <a href="#fenomena" class="btn-primary" onclick="showPage('fenomena')">Mulai Eksplorasi ↓</a>
+    </div>
+    <div class="hero-visual">
+      <div class="phone-mock">
+        <div class="phone-screen">
+          <div class="chat-bubble bad" style="animation-delay:0s">"Dasar jelek!"</div>
+          <div class="chat-bubble bad" style="animation-delay:0.4s">"Gak ada gunanya lu."</div>
+          <div class="chat-bubble good" style="animation-delay:0.9s">"Stop. Dia punya perasaan."</div>
+          <div class="chat-bubble good" style="animation-delay:1.3s">"Yuk kita dukung, bukan hujat."</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-cards">
+    <div class="info-card" onclick="showPage('fenomena')">
+      <div class="card-icon">⚠️</div>
+      <h3>Fenomena Sosial</h3>
+      <p>Kasus nyata cyberbullying dan hilangnya empati di media sosial.</p>
+    </div>
+    <div class="info-card" onclick="showPage('moral')">
+      <div class="card-icon">⚖️</div>
+      <h3>Nilai Moral & Etika</h3>
+      <p>Hubungan perilaku digital dengan Sila ke-2 Pancasila.</p>
+    </div>
+    <div class="info-card" onclick="showPage('interaktif')">
+      <div class="card-icon">🎯</div>
+      <h3>Zona Interaktif</h3>
+      <p>Simulasi komentar, kuis, dan polling untuk menguji pemahamanmu.</p>
+    </div>
+  </div>
+
+  <div class="sila-banner">
+    <div class="sila-number">II</div>
+    <blockquote>
+      "Kemanusiaan yang Adil dan Beradab"
+      <cite>— Pancasila, Sila ke-2</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ===== PAGE: FENOMENA ===== -->
+<section id="fenomena" class="page">
+  <div class="page-header">
+    <div class="page-eyebrow">Fenomena Sosial</div>
+    <h2>Apa yang Terjadi di Dunia Maya?</h2>
+    <p>Berikut adalah fenomena nyata yang menunjukkan hilangnya rasa kemanusiaan di era digital.</p>
+  </div>
+
+  <div class="fenomena-grid">
+    <article class="fenomena-card">
+      <div class="fen-icon">💬</div>
+      <h3>Cyberbullying</h3>
+      <p>Perundungan via media sosial, pesan pribadi, atau kolom komentar. Korban sering mengalami depresi, kecemasan, bahkan trauma jangka panjang.</p>
+      <div class="stat-bar">
+        <span class="stat-label">45% remaja pernah mengalami</span>
+        <div class="bar"><div class="fill" style="width:45%"></div></div>
+      </div>
+    </article>
+
+    <article class="fenomena-card">
+      <div class="fen-icon">😶</div>
+      <h3>Kurangnya Empati</h3>
+      <p>Orang lebih mudah bersikap kejam di balik layar karena tidak melihat ekspresi korban secara langsung — efek "dehumanisasi digital".</p>
+      <div class="stat-bar">
+        <span class="stat-label">63% pengguna pernah komen tanpa pikir dampaknya</span>
+        <div class="bar"><div class="fill" style="width:63%"></div></div>
+      </div>
+    </article>
+
+    <article class="fenomena-card">
+      <div class="fen-icon">🔥</div>
+      <h3>Ujaran Kebencian</h3>
+      <p>Hate speech menyebar cepat karena algoritma mendorong konten yang memancing reaksi emosional. Satu komentar bisa memicu ratusan serangan.</p>
+      <div class="stat-bar">
+        <span class="stat-label">1 dari 3 postingan bermuatan negatif</span>
+        <div class="bar"><div class="fill" style="width:33%"></div></div>
+      </div>
+    </article>
+
+    <article class="fenomena-card">
+      <div class="fen-icon">🙈</div>
+      <h3>Bystander Effect Digital</h3>
+      <p>Banyak yang melihat perundungan online tapi diam — karena takut jadi target berikutnya, atau merasa "bukan urusan saya".</p>
+      <div class="stat-bar">
+        <span class="stat-label">70% saksi tidak melakukan apapun</span>
+        <div class="bar"><div class="fill" style="width:70%"></div></div>
+      </div>
+    </article>
+  </div>
+
+  <div class="dampak-section">
+    <h3>Dampak Psikologis Cyberbullying</h3>
+    <div class="dampak-list">
+      <div class="dampak-item">
+        <span class="dampak-icon">😔</span>
+        <div>
+          <strong>Depresi & Kecemasan</strong>
+          <p>Korban mengalami perasaan tidak berharga, takut menggunakan media sosial, hingga mengisolasi diri.</p>
+        </div>
+      </div>
+      <div class="dampak-item">
+        <span class="dampak-icon">📉</span>
+        <div>
+          <strong>Penurunan Prestasi</strong>
+          <p>Kondisi mental yang terganggu berdampak langsung pada konsentrasi belajar dan produktivitas.</p>
+        </div>
+      </div>
+      <div class="dampak-item">
+        <span class="dampak-icon">💔</span>
+        <div>
+          <strong>Hilangnya Kepercayaan Diri</strong>
+          <p>Komentar negatif berulang merusak harga diri dan citra diri korban dalam jangka panjang.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE: NILAI MORAL ===== -->
+<section id="moral" class="page">
+  <div class="page-header">
+    <div class="page-eyebrow">Nilai Moral & Etika</div>
+    <h2>Sila ke-2 sebagai Kompas Digital</h2>
+    <p>Bagaimana nilai Pancasila membimbing kita menjadi warga digital yang beradab?</p>
+  </div>
+
+  <div class="moral-split">
+    <div class="moral-left">
+      <h3>Makna Sila ke-2</h3>
+      <p>
+        <strong>"Kemanusiaan yang Adil dan Beradab"</strong> mengandung tiga elemen penting:
+      </p>
+      <ul class="moral-list">
+        <li>
+          <span class="bullet-num">01</span>
+          <div><strong>Kemanusiaan</strong> — Mengakui bahwa setiap orang memiliki hak, perasaan, dan martabat yang sama.</div>
+        </li>
+        <li>
+          <span class="bullet-num">02</span>
+          <div><strong>Keadilan</strong> — Memperlakukan orang lain secara setara tanpa diskriminasi, termasuk di dunia digital.</div>
+        </li>
+        <li>
+          <span class="bullet-num">03</span>
+          <div><strong>Beradab</strong> — Berperilaku dengan sopan, berempati, dan penuh tanggung jawab dalam setiap interaksi.</div>
+        </li>
+      </ul>
+    </div>
+    <div class="moral-right">
+      <div class="compare-box">
+        <div class="compare-col bad-col">
+          <h4>❌ Melanggar Sila ke-2</h4>
+          <ul>
+            <li>Menghina penampilan orang</li>
+            <li>Menyebarkan rumor palsu</li>
+            <li>Membully di kolom komentar</li>
+            <li>Mengabaikan tanda-tanda korban</li>
+            <li>Screenshot & menyebarkan chat pribadi</li>
+          </ul>
+        </div>
+        <div class="compare-col good-col">
+          <h4>✅ Menerapkan Sila ke-2</h4>
+          <ul>
+            <li>Memberi apresiasi yang tulus</li>
+            <li>Verifikasi sebelum share</li>
+            <li>Berani laporkan perundungan</li>
+            <li>DM dukungan ke korban</li>
+            <li>Menjaga privasi orang lain</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="etika-timeline">
+    <h3>Panduan Etika Berkomentar</h3>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>Sebelum mengetik — PIKIR</h4>
+          <p>Apakah komentar ini <strong>T</strong>rue (benar)? <strong>H</strong>elpful (membantu)? <strong>I</strong>nspiring (menginspirasi)? <strong>N</strong>ecessary (perlu)? <strong>K</strong>ind (baik)?</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>Bayangkan orangnya nyata</h4>
+          <p>Di balik setiap akun ada manusia dengan perasaan. Berkomentar seolah kamu bertatap muka langsung.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>Jika melihat perundungan — ACT</h4>
+          <p>Bela korban, laporkan konten, atau hubungi admin. Diam berarti membiarkan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE: INTERAKTIF ===== -->
+<section id="interaktif" class="page">
+  <div class="page-header">
+    <div class="page-eyebrow">Zona Interaktif</div>
+    <h2>Uji & Rasakan Sendiri</h2>
+    <p>Tiga aktivitas interaktif untuk menguji pemahaman dan empatimu.</p>
+  </div>
+
+  <!-- TAB NAVIGATION -->
+  <div class="tab-nav">
+    <button class="tab-btn active" onclick="showTab('simulasi')">💬 Simulasi Komentar</button>
+    <button class="tab-btn" onclick="showTab('kuis')">🧠 Kuis Pancasila</button>
+    <button class="tab-btn" onclick="showTab('polling')">📊 Polling</button>
+  </div>
+
+  <!-- TAB: SIMULASI -->
+  <div id="tab-simulasi" class="tab-content active">
+    <div class="simulasi-wrapper">
+      <div class="simulasi-info">
+        <h3>Simulasi Komentar: Baik vs Toxic</h3>
+        <p>Seseorang baru saja mem-posting foto karya pertamanya. Pilih bagaimana kamu akan berkomentar, lalu lihat dampaknya.</p>
+        <div class="post-preview">
+          <div class="post-avatar">🎨</div>
+          <div class="post-body">
+            <strong>Andi_Kreasi</strong>
+            <p>"Hei teman-teman! Ini lukisan pertamaku, masih banyak kekurangan tapi aku bangga sudah mencoba 😊"</p>
+            <span class="post-time">2 menit lalu · 47 likes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment-choices">
+        <p class="choices-label">Pilih komentarmu:</p>
+        <button class="choice-btn toxic" onclick="pickComment('toxic', this)">
+          "Jelek banget, buang aja waktunya."
+        </button>
+        <button class="choice-btn neutral" onclick="pickComment('neutral', this)">
+          "Oke sih, tapi biasa aja."
+        </button>
+        <button class="choice-btn good" onclick="pickComment('good', this)">
+          "Keren Andi! Terus berlatih ya, karya pertama selalu spesial! 🎉"
+        </button>
+      </div>
+
+      <div id="comment-result" class="comment-result hidden">
+        <div id="result-icon" class="result-icon"></div>
+        <div id="result-text" class="result-text"></div>
+        <button class="btn-reset" onclick="resetSimulasi()">Coba Lagi</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB: KUIS -->
+  <div id="tab-kuis" class="tab-content">
+    <div class="kuis-wrapper">
+      <div id="kuis-container">
+        <div class="kuis-progress">
+          <span id="kuis-num">Soal 1 / 5</span>
+          <div class="progress-bar-kuis">
+            <div id="kuis-bar" class="kuis-bar-fill" style="width:20%"></div>
+          </div>
+        </div>
+        <div id="kuis-question" class="kuis-question"></div>
+        <div id="kuis-options" class="kuis-options"></div>
+        <div id="kuis-feedback" class="kuis-feedback hidden"></div>
+      </div>
+      <div id="kuis-result" class="kuis-result hidden">
+        <div class="result-trophy">🏆</div>
+        <h3 id="kuis-score-text"></h3>
+        <p id="kuis-comment"></p>
+        <button class="btn-primary" onclick="startKuis()">Main Lagi</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB: POLLING -->
+  <div id="tab-polling" class="tab-content">
+    <div class="polling-wrapper">
+      <h3>Jika Kamu Melihat Cyberbullying, Apa yang Kamu Lakukan?</h3>
+      <p>Pilih jawabanmu. Hasil polling ditampilkan secara langsung.</p>
+      <div class="poll-options" id="poll-options">
+        <button class="poll-btn" onclick="vote(0)">Langsung laporkan kontennya</button>
+        <button class="poll-btn" onclick="vote(1)">DM ke korban, beri dukungan</button>
+        <button class="poll-btn" onclick="vote(2)">Tinggalkan komentar positif untuk korban</button>
+        <button class="poll-btn" onclick="vote(3)">Diam dan scroll terus</button>
+      </div>
+      <div id="poll-result" class="poll-result hidden">
+        <h4>Hasil Polling Sementara</h4>
+        <div id="poll-bars"></div>
+        <p class="poll-note">* Data polling bersifat simulasi edukatif</p>
+        <button class="btn-secondary" onclick="resetPoll()">Ubah Pilihan</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE: KESIMPULAN ===== -->
+<section id="kesimpulan" class="page">
+  <div class="page-header">
+    <div class="page-eyebrow">Kesimpulan</div>
+    <h2>Pesan Moral & Ajakan Berubah</h2>
+  </div>
+
+  <div class="pesan-utama">
+    <div class="quote-big">
+      <span class="quote-mark">"</span>
+      Tidak semua perilaku buruk memiliki sanksi hukum,<br/>
+      tetapi setiap tindakan tetap memiliki nilai moral<br/>
+      dan dampak kemanusiaan.
+      <span class="quote-mark">"</span>
+    </div>
+    <cite>— Pesan Utama Tugas Pancasila</cite>
+  </div>
+
+  <div class="kesimpulan-grid">
+    <div class="kes-card">
+      <div class="kes-num">01</div>
+      <h3>Layar bukan perisai</h3>
+      <p>Anonimitas tidak menghapus tanggung jawab moral. Setiap kata yang kita ketik memiliki konsekuensi nyata bagi manusia di balik layar.</p>
+    </div>
+    <div class="kes-card">
+      <div class="kes-num">02</div>
+      <h3>Empati adalah pilihan</h3>
+      <p>Di era digital, kita bisa memilih untuk menjadi pelaku, penonton, atau pembela. Sila ke-2 mengajak kita jadi pembela.</p>
+    </div>
+    <div class="kes-card">
+      <div class="kes-num">03</div>
+      <h3>Kemanusiaan dimulai dari kita</h3>
+      <p>Perubahan tidak perlu menunggu viral. Satu komentar positif, satu laporan perundungan — itu sudah berarti bagi korban.</p>
+    </div>
+  </div>
+
+  <div class="ajakan">
+    <h3>Mulai Sekarang, Lakukan Ini:</h3>
+    <div class="ajakan-steps">
+      <div class="step">
+        <span class="step-icon">🤔</span>
+        <p><strong>THINK</strong> sebelum mengetik komentar apapun</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <span class="step-icon">🛡️</span>
+        <p><strong>LAPORKAN</strong> konten perundungan yang kamu lihat</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <span class="step-icon">💚</span>
+        <p><strong>DUKUNG</strong> orang yang menjadi korban</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <span class="step-icon">📢</span>
+        <p><strong>SEBARKAN</strong> pesan kemanusiaan ini</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-sila">
+    <div class="garuda-symbol">⚖️</div>
+    <p class="sila-final"><strong>Sila ke-2 Pancasila</strong></p>
+    <p class="sila-text-final">"Kemanusiaan yang Adil dan Beradab"</p>
+    <p class="made-by">Website Edukasi — Tugas UAS Pendidikan Pancasila | Teknik Komputer</p>
+  </div>
+</section>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Ke atas">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
